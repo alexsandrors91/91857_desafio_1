@@ -1,0 +1,144 @@
+
+
+
+#menu_superior{
+    background-color: #303030;
+    padding: 30px;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: inter;
+    width: 100%;
+    height: 475px;
+}
+#texto_maior{
+    font-size: 60px;
+    width: 1024px;
+    height: 161;
+    margin-top: 206px;
+    margin-left: 62px;
+    margin-bottom: 10px;
+}
+
+#texto_menor{
+    font-size: 35px;
+    width: 1024px;
+    margin-left: 82px;
+    margin-bottom: 20px;
+}
+
+
+b{
+    font-size: 60px;
+    font-family: inter, sans-serif;
+    
+}
+
+#text_info{
+    
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 2%;
+    position: relative;  
+    padding: 30px;   
+    font-family: inter,sans-serif;
+    font-size: 40px;
+    text-align: left;
+}
+
+#texto_principal{
+    font-family: inter, sans-serif;
+    font-size: 24px;
+    margin-left: 150px;
+    margin-top: 150px;
+    
+    width: auto;
+    height: auto;
+    display: grid;
+   
+}
+.container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    gap: 50%; /* Espaçamento entre a imagem e o texto */
+  }
+  
+  .imagem {
+    width: 510px; /* Ajuste conforme necessário */
+    height: 605px; /* Mantém a proporção da imagem */
+    padding: 50px;
+  }
+  
+    
+      
+
+
+
+#imagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-top: 80px;
+    width: 510px;
+    height: 605px;
+    border-radius: 30px;
+    padding: 200px;
+   
+
+
+}
+#titulo_texto_principal{
+    
+    font-family: inter, sans-serif;
+    font-size: 40px;
+    
+   
+   
+}
+
+#formulario{
+    background: #303030;
+    color: #F9F9F9;
+    padding: 50px;
+    text-align: center;
+    font-family: inter, sans-serif;
+    height:1024px;
+   
+
+    
+}
+
+#titulo_formulario{
+    
+    text-align: center;
+    font-family: inter, sans-serif;
+    font-size: 50px;
+
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    margin-left: 30px;
+    padding: 10px;
+
+
+}
+button{
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px;
+
+
+}
+button:hover{
+    background-color: #7e5d35;
+}
