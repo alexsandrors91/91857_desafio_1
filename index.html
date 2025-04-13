@@ -1,60 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arquitetura - Projetos de Excelência</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div id="menusuperior">
-        <h1 id="titulo-menusuperior">Tradição em projetos de arquitetura <br></h1>
-        <p id="texto-menusuperior">Arquitetura residencial e comercia</p>
+
+  <!-- Cabeçalho -->
+  <section class="menu-superior">
+    <h1>Tradição em projetos de arquitetura</h1>
+    <p>Arquitetura residencial e comercial.</p>
+  </section>
+
+  <!-- Informações principais -->
+  <section class="menu-informacional">
+    <div>
+      <strong>850</strong>
+      <span>empreendimentos construídos</span>
     </div>
-    <section class="menuInformacional">
-        <div>
-          <strong>850</strong>
-          <span>empreendimentos construídos</span>
-        </div>
-        <div>
-          <strong>40</strong>
-          <span>anos de mercado e experiência</span>
-        </div>
-        <div>
-          <strong>2,000,000</strong>
-          <span>m² em projetos construídos</span>
-        </div>
-      </section>
-
-      <section class="texto_introdutorio">
-        <div>
-            <h1>Arquitetos com História e Experiência.</h1>
-            <p> Nós realizamos desde 2002 projetos e gerenciamento de obras. <br>
-                Com mais de 800 projetos e 2.000.000 de m² construídos, tendo <br>
-                como principal proposta transformar em realidade os sonhos de <br>
-                seus clientes, criando projetos personalizados, unindo a tradição <br>
-                e a modernidade em nossos projetos.</p>
-        </div>
-
-        <img src="/imagens/imagem1.svg" alt="">
-
-      </section>
-
-      <div id="formulario">
-        <h1 id="titulo_form">Conheça mais sobre nossos serviços:</h1>
-        <form action="https://api.sheetmonkey.io/form/2BxjtXCV8d2x1CCbhawKBd" method="post">
-            <input type="text" placeholder="Nome" name="Nome" required><br>
-            <input type="email" placeholder="Email" name="email" required><br>
-            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
-            <button type="submit" value="Sing Up">Fale Conosco</button>
-
-        </form>
-
+    <div>
+      <strong>40</strong>
+      <span>anos de criação e experiência</span>
     </div>
-    
-    
+    <div>
+      <strong>2,000,000</strong>
+      <span>m² em projetos construídos</span>
+    </div>
+  </section>
+
+  <!-- Texto Introdutório + Imagem -->
+  <section class="texto-introdutorio">
+    <div class="texto">
+      <h2>Arquitetos com História e Experiência.</h2>
+      <p>Nos realizamos desde 2002 projetos e gerenciamento de obras. <br>
+      Com mais de 850 projetos e 2.000.000 m² de construção, tendo<br>
+      como principal propósito transformar em realidade os sonhos de <br>
+      seus clientes! Projetos planejados com detalhes, unindo a tradição <br>
+      e a modernidade de nossos projetos. <br></p>
+    </div>
+    <img src="/imagens/imagem1.svg" alt="Imagem de projeto de arquitetura" />
+  </section>
+
+  <!-- Formulário -->
+  <section class="formulario">
+    <h3>Conheça mais sobre nossos serviços:</h3>
+    <form action="https://api.sheetmonkey.io/form/erwQttyxPLy6PjEtdTDPg7" method="post">
+      <input type="text" name="nome" placeholder="Nome" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+      <button type="submit">Fale Conosco</button>
+    </form>
+  </section>
+
 </body>
 </html>
